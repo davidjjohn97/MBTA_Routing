@@ -20,7 +20,7 @@ Extend your program again such that the user can provide any two stops on the su
 
 ## Running the file
 - To run the file kindly install node, you can refer to https://nodejs.org/en/download for the same
-- use command "node mbtaRouteFilter.js"
+- use command "node mbtaRouteFilter.js" or "node mbtaRouteFilterV2.js" (for version 2)
 - Type of route can be toggled in the same file by including respective enums of routeTypes, however in this case type 2 provides the required solution
 - N.B update API Key received from https://api-v3.mbta.com/register
 
@@ -29,3 +29,5 @@ Extend your program again such that the user can provide any two stops on the su
     - Security: The first and most important reason why server side filtering was not considered is because the given data is publicly available
     - Volume of Data : Dataset is not very large
     - Performance: Client-side filter will offer more responsive output since filtering is handled locally
+
+** Version 2 uses graph logic
